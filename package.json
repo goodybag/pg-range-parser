@@ -1,0 +1,38 @@
+{
+  "name": "pg-range-parser",
+  "version": "1.0.0",
+  "description": "Parses postgres range types",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "pg": "^4.3.0",
+    "mocha": "^2.2.4"
+  },
+  "scripts": {
+    "test": "mocha -R spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goodybag/pg-range-parser"
+  },
+  "keywords": [
+    "Postgres",
+    "types",
+    "type",
+    "enum",
+    "enums"
+  ],
+  "author": "John Fawcett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goodybag/pg-range-parser/issues"
+  },
+  "homepage": "https://github.com/goodybag/pg-range-parser"
+}
